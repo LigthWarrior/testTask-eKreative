@@ -4,9 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
 </head>
 <body>
-    
+    <div class="wrapper">
+        <h1 class="header">
+            <a class="decoration-link" href="#">Stackfindover</a>
+        </h1>
+        <form class="form">
+            <span class="title-form">Sign in to your account</span>
+            <div class="padding-bottom">
+                <label class="margin-bottom input-link-label" for="email">Email</label>
+                <input class="field-input padding-bottom" type="email" name="email">
+            </div>
+            <div class="padding-bottom">
+                <div class="flex-container">
+                    <label class="margin-bottom input-link-label" for="password">Password</label>
+                    <a class="decoration-link input-link-label" href="https://www.google.com">Forgot your password?</a>
+                </div>
+                <input class="field-input" type="password" name="password">
+            </div>
+            <div class="padding-bottom field-checkbox">
+                <label for="checkbox">
+                <input type="checkbox" name="checkbox">Stay signed in for a week
+                </label>
+            </div>
+            <div class="padding-bottom">
+                <input class="field-input field-submit" type="submit" name="submit" value="Continue">
+            </div>
+            <a class="decoration-link sing-on-link" href="https://www.google.com/maps">Use single sign-on (Google) instead</a>
+        </form>
+        <div class="footer-link padding-top">
+            <span>Don't have an account? <a class="decoration-link" href="https://www.facebook.com">Sign up</a></span>
+        </div>
+    </div>
 </body>
 </html>

@@ -91,15 +91,19 @@
   text-align: center;
 }
 
-.margin-bottom {
+.margin-bottom-10 {
   margin-bottom: 10px;
 }
 
-.padding-bottom {
+.padding-bottom-24 {
+  padding-bottom: 24px;
+}
+
+.padding-bottom-12 {
   padding-bottom: 12px;
 }
 
-.padding-top {
+.padding-top-12 {
   padding-top: 24px;
 }
 

@@ -29,6 +29,22 @@
 	border-radius: 50px;
 }
 
+@media (max-width: 384px) {
+    .dice {
+        margin: 7px;
+        padding: 7px;
+        width: 50px;
+        height: 50px;
+        border: solid 3px #000;
+        border-radius: 10px;
+    }
+    
+    .dice-point::before {
+        width: 8px;
+        height: 8px;
+    }
+}
+
 .dice-one {
     order: 4;
     justify-content: center;

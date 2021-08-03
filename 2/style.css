@@ -96,9 +96,17 @@
 }
 
 .padding-bottom {
-  padding-bottom: 24px;
+  padding-bottom: 12px;
 }
 
 .padding-top {
   padding-top: 24px;
+}
+
+.hidden {
+  visibility: hidden;  
+}
+
+.message-color {
+  color: #f00;  
 }

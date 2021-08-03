@@ -16,14 +16,16 @@
             <span class="title-form">Sign in to your account</span>
             <div class="padding-bottom">
                 <label class="margin-bottom input-link-label" for="email">Email</label>
-                <input class="field-input padding-bottom" type="email" name="email">
-            </div>
+                <input class="field-input" type="email" name="email" data-email>
+                <small class="hidden message-color" data-error-massage-email>Please include an '@' in the email address.</small>
+            </div>            
             <div class="padding-bottom">
                 <div class="flex-container">
                     <label class="margin-bottom input-link-label" for="password">Password</label>
                     <a class="decoration-link input-link-label" href="https://www.google.com">Forgot your password?</a>
                 </div>
-                <input class="field-input" type="password" name="password">
+                <input class="field-input" type="password" name="password" data-password>
+                <small class="hidden message-color" data-error-massage-password>Please enter more than 6 characters.</small>
             </div>
             <div class="padding-bottom field-checkbox">
                 <label for="checkbox">
@@ -39,5 +41,6 @@
             <span>Don't have an account? <a class="decoration-link" href="https://www.facebook.com">Sign up</a></span>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
